@@ -14,7 +14,7 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 #Put your bot username without @ 
-BOT_USERNAME = getenv("BOT_USERNAME", "TheChampuBot")
+BOT_USERNAME = getenv("BOT_USERNAME", "mysticxmusicbot")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -29,7 +29,7 @@ EXTRA_PLUGINS = getenv(
 # Fill True if you want to load extra plugins
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/TheChampu/MusicPlugins",
+    "https://github.com/",
 )
 # Fill here the external plugins repo where plugins that you want to load
 # Your folder name in your extra plugins repo where all plugins stored
@@ -50,7 +50,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ChampuXD/ChampuMusic",
+    "https://github.com/Sankalp1345/ChampuMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
@@ -59,8 +59,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TheChampu")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/akaChampu")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/geekrebels")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/geekrebels")
 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "100"))
